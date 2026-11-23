@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #14283d;
+  background: #f8f6f0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+::selection {
+  background: #b69a62;
+  color: white;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+.form-input {
+  width: 100%;
+  border: 1px solid #e5e1d8;
+  background: white;
+  padding: 15px;
+  font-size: 13px;
+  color: #14283d;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  border-color: #b69a62;
+}
+
+.form-input::placeholder {
+  color: #999;
+}
